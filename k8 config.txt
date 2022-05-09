@@ -1,0 +1,13 @@
+Each config file has 3 parts:
+`````````````````````````````
+
+apiVersion:
+kind: Deployment \ Service \ StatefulSet etc
+
+1) Metadata
+
+2) Spec
+
+3) Status (continuously generated automatically by K8) based on Desired vs Actual state
+	"Etcd" hold current status of any K8 component
+
